@@ -3,9 +3,9 @@ package com.mycompany.coopfuturoseguro;
 public class Persona {
 
     //ATRIBUTOS
-    private String nombre;
-    private String id;
-    private String correo;
+    public String nombre;
+    public String id;
+    public String correo;
 
     //CONSTRUCTOR VACIO
     public Persona() {
