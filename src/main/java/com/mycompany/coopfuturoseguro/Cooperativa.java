@@ -4,10 +4,10 @@ import java.util.Vector;
 
 public class Cooperativa {
 
-    private Persona[] personas;
-    private Cuenta[] cuentas;
-    private int numPersonas;
-    private int numCuentas;
+    public Persona[] personas;
+    public Cuenta[] cuentas;
+    public int numPersonas;
+    public int numCuentas;
 
     public Cooperativa() {
         personas = new Persona[10];
