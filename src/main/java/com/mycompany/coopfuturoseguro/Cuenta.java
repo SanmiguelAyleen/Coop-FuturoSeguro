@@ -3,10 +3,10 @@ package com.mycompany.coopfuturoseguro;
 public class Cuenta {
 
     //ATRIBUTOS
-    private String numeroCuenta;
-    private double saldo;
-    private String tipo; // "Corriente" o "Ahorro"
-    private Persona titular;
+    public String numeroCuenta;
+    public double saldo;
+    public String tipo; 
+    public Persona titular;
 
     //CONSTRUCTOR VACIO
     public Cuenta() {
